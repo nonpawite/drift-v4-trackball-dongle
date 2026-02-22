@@ -70,7 +70,9 @@ If you want the right half to stay in mouse mode:
 - **Hold `Raise` + press `6`**  
   → Mouse mode stays locked on.
 - To exit, **Hold `Raise` + press `6` again**  
-  → Returns to normal keyboard operation.
+  → Returns to normal keyboard operation.  
+
+This is just moving around different layers - not black magic.  
 
 ---
 

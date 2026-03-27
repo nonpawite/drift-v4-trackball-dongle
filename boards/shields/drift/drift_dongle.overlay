@@ -28,7 +28,7 @@
 	//sensor-dpi = <600>;           // For reference only
 
 	// Level 1 & 2 Common Settings - office_trackball (400 DPI hardware)
-	sensitivity = <300>;        // 1.5x base sensitivity (compensates for low DPI)
+	sensitivity = <400>;        // 1.5x base sensitivity (compensates for low DPI)
 	max-factor = <1200>;        // Up to 2.0x acceleration
 	curve-type = <0>;           // Mild curve (default linear-ish)
 	y-boost = <1100>;           // 1.1x Y-axis boost (helps widescreen use)

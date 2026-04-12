@@ -55,7 +55,7 @@
 	status = "okay";
     	input-processors = 
 		    <&pointer_accel>,
-			<&am_temp_layer 4 1200>;   /* <- guarded automouse: layer 4 for 1.5s */
+			<&am_temp_layer 4 900>;   /* <- guarded automouse: layer 4 for 0.9s */
 	scroll {
 		layers = <5 7>; // SCROLL
 		input-processors =

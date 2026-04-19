@@ -59,7 +59,7 @@ The V4 supports multiple build configurations:
 #### 🖱️ While You’re Using the Trackball
 - When you move the trackball, the **right half switches to mouse-only mode**.
 - This means you **can’t type** on the right side until:
-  - You stop moving the trackball for **~1.2 seconds**, **then** the keyboard returns to normal typing mode.
+  - You stop moving the trackball for **~0.6 seconds**, **then** the keyboard returns to normal typing mode.
 - This function prevents accidental mouse activation while typing and vice versa.
 
 ---

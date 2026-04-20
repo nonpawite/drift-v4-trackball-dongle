@@ -1,5 +1,7 @@
 # Drift Keyboard V4 — Mac OS Keys  
 
+![Mac OS Keymap](https://github.com/Timception/drift-v4-trackball-dongle/blob/main/precompiled-firmware/Mac-OS-keys/driftv4-MacOS.png)  
+
 
 ### ⚙️ Windows to Mac OS Key Table  
 Here is a quick guide on what keys on a Windows keyboard equate to on a Mac OS keyboard  

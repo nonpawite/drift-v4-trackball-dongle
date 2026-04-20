@@ -18,7 +18,7 @@ To solve the common problem found when using external keyboards on a Mac, downlo
 
 Once the application is installed and everything is enabled toggle "Modify events" for the Drift Keyboard.  
 
-An example can be seen [as shown here]](https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-devices/)  
+An example can be seen [as shown here](https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-devices/)  
 
 ---
 

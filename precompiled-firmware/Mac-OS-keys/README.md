@@ -37,7 +37,7 @@ Then press "/" (backslash) for the key next to the right shift.
 
 Finally, choose "ANSI (U.S.)".  
 
-Now your keyboard can type the Tilde "~" key by pressing "SHIFT" + "~".  
+Now your keyboard can type the Tilde key (~) key by pressing [SHIFT + ~]  
 
 ---
 

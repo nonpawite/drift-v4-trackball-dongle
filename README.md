@@ -35,7 +35,8 @@ This model took extensive time and refinement to bring together, and I can easil
 
 - The **OLEDs were removed** to avoid signal interference with the MCU underneath  
 - **4-pin OLED sockets remain**, so users can reinstall displays and make firmware changes if desired  
-- Designed with **maximum modding potential** in mind, and all the case parts can be 3D-Printed so even more colors
+- Designed with **maximum modding potential** in mind, and all the case parts can be 3D-Printed so even more colors  
+- The Trackball can be removed by putting an allen-key wrench in the tiny hole on the side and popping it out (but be careful not to hit the sensor lens)
 
 ---
 

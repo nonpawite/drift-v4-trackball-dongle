@@ -26,7 +26,7 @@ The ZMK Keycodes for the Modifiers can be found [HERE](https://zmk.dev/docs/keym
 > 
 > Copy this code and paste it in your terminal then press enter, you will likely be prompted to enter your password to execute it.  
 > 
-```
+>```
 sudo rm /Library/Preferences/com.apple.keyboardtype.plist
 ```
 > 

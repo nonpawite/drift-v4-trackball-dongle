@@ -1,10 +1,10 @@
 # Drift Keyboard V4 — Mac OS Keys  
 
 
-### ⚙️ Windows Keys to Mac OS Keys
-Here is a quick guide on what keys on a Windows keyboard equate to ona Mac OS keyboard  
+### ⚙️ Windows Keys to Mac OS Keys  
+Here is a quick guide on what keys on a Windows keyboard equate to on a Mac OS keyboard  
 
-| WINDOWS Keyboard   | MAC OS Keyboard |
+| Windows Keyboard   | Mac OS Keyboard |
 |:------------------:|:---------------:|
 | Windows Key / GUI  | Command / ⌘    |
 | Alternate / Alt    | Option / ⌥     |
@@ -12,10 +12,17 @@ Here is a quick guide on what keys on a Windows keyboard equate to ona Mac OS ke
 
 ---
 
-You will very likely have to download and install [Karabiner-Elements](https://karabiner-elements.pqrs.org/) just follow the guide and enable everything it asks.  
-Once you are in the Karabiner App, go to Devices and find the keyboard, enable modification or whatever the option is called then wallah - backtick and tilde (shift + backtick) now work.  
+### Karabiner Tilde(~) Key Problem Solver  
+To solve the common problem found when using external keyboards on a Mac, download and install:  
+[Karabiner-Elements](https://karabiner-elements.pqrs.org/) - follow the guide and enable everything it asks you to.  
 
-# Keymap
+Once the application is installed and everything is enabled toggle "Modify events" for the Drift Keyboard.  
+
+An example can be seen [as shown here]](https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-devices/)  
+
+---
+
+# Mac OS Keymap  
 
 ![Keymap](https://github.com/Timception/drift-v4-trackball-dongle/blob/main/precompiled-firmware/Mac-OS-keys/drift.svg)  
 

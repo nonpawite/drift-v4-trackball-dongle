@@ -19,25 +19,26 @@ The ZMK Keycodes for the Modifiers can be found [HERE](https://zmk.dev/docs/keym
 ---
 
 ### The Tilde(~) Key Problem  
-Sometimes the Tilde key (~) does not work no matter what you try.  
-
-Open up the Terminal App  
-
-Copy this code and paste it in your terminal then press enter, you will likely be prompted to enter your password to execute it.  
-
+> [!IMPORTANT]
+> Sometimes the Tilde key (~) does not work no matter what you try.  
+> 
+> Open up the Terminal App  
+> 
+> Copy this code and paste it in your terminal then press enter, you will likely be prompted to enter your password to execute it.  
+> 
 ```
 sudo rm /Library/Preferences/com.apple.keyboardtype.plist
 ```
-
-Your Drift Keyboard will probably be disabled now, Restart your Mac/Macbook.  
-
-When you are prompted to setup your keyboard, press "z" for the key next to the left shift.  
-
-Then press "/" (backslash) for the key next to the right shift.  
-
-Finally, choose "ANSI (U.S.)".  
-
-Now your keyboard can type the Tilde key (~) key by pressing [SHIFT + ~]  
+> 
+> Your Drift Keyboard will probably be disabled now, Restart your Mac/Macbook.  
+> 
+> When you are prompted to setup your keyboard, press "z" for the key next to the left shift.  
+> 
+> Then press "/" (backslash) for the key next to the right shift.  
+> 
+> Finally, choose "ANSI (U.S.)".  
+> 
+> Now your keyboard can type the Tilde key (~) key by pressing [SHIFT + ~]  
 
 ---
 

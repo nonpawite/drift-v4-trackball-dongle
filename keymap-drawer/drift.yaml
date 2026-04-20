@@ -31,7 +31,7 @@ layers:
   - P
   - '['
   - \
-  - LGUI
+  - {t: ▽, type: trans}
   - CAPS
   - A
   - S
@@ -45,8 +45,8 @@ layers:
   - ;
   - UP ARROW
   - ENTER
-  - LCTRL
-  - LALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Z
   - X
   - C
@@ -95,7 +95,7 @@ layers:
   - P
   - '&msc SCRL_DOWN'
   - '&mkp MCLK'
-  - LGUI
+  - {t: ▽, type: trans}
   - CAPS
   - A
   - S
@@ -109,8 +109,8 @@ layers:
   - '&mkp LCLK'
   - '&mmv MOVE_UP'
   - '&mkp RCLK'
-  - LCTRL
-  - LALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Z
   - X
   - C
@@ -159,7 +159,7 @@ layers:
   - P
   - '&msc SCRL_DOWN'
   - '&mkp MCLK'
-  - LGUI
+  - {t: ▽, type: trans}
   - CAPS
   - A
   - S
@@ -173,8 +173,8 @@ layers:
   - '&mkp LCLK'
   - '&mmv MOVE_UP'
   - '&mkp RCLK'
-  - LCTRL
-  - LALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Z
   - X
   - C

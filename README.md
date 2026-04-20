@@ -9,7 +9,7 @@ This version keeps the familiar shape of previous Drift models while introducing
 
 ## 🆕 Key Features
 
-- ZMK Studio enabled, and can also be keymapped using [Nick Coutsos' Editor](https://github.com/nickcoutsos/keymap-editor)  
+- [ZMK Studio](https://zmk.studio/) enabled, and can also be keymapped using [Nick Coutsos' Editor](https://github.com/nickcoutsos/keymap-editor)  
 - Connects through a **dongle** for improved wireless functionality  
 - Adds a **newly integrated trackball** - One less device to carry. Enjoy full cursor control without the need for a separate mouse.  
 - Can install sockets for **choc v1/v2 switches**
@@ -120,6 +120,61 @@ You can see more actual builds [-=HERE=-](https://www.instagram.com/majin.keyboa
 # Keymap
 
 ![Keymap](https://github.com/Timception/drift-v4-trackball-dongle/blob/main/keymap-drawer/drift.svg)  
+
+## 🔄 Reflashing Instructions
+
+Your keyboard already has firmware installed, you usually don’t need to reflash.  
+But if you want to update to the latest build, here’s how to do it:
+
+1. **Download the latest firmware**  
+   - Go to the **[precompiled-firmware](https://github.com/Timception/drift-v4-trackball-dongle/tree/main/precompiled-firmware)** in this repo.  
+   - Download the desired **firmware .zip file**, if you have a Mac, get the zip file in the "Mac-OS-keys" folder.  
+
+2. **Unzip the file**  
+   - Inside you’ll find multiple `.uf2` files:       
+     - `drift_central_dongle.uf2` → Dongle firmware  
+     - `drift_left.uf2` → Left half firmware  
+     - `drift_right.uf2` → Right half firmware  
+	 - `settings_reset-nice_nano_v2-zmk.uf2` → Settings Reset firmware (needed to clean devices before new firmware)  
+
+3. **Reset the dongle**  
+   - Plug in your dongle.  
+   - Double-click the **reset button** on the dongle.  
+   - A new drive should appear on your computer.
+
+4. **Flash the reset firmware**  
+   - Drag `settings_reset-nice_nano_v2-zmk.uf2` into the new bootloader drive.  
+   - Wait until the dongle reboots.  
+
+5. **Repeat reset step for each keyboard half**  
+   - Double-click the reset button on the **left half** → drag `settings_reset-nice_nano_v2-zmk.uf2` into the bootloader drive.  
+   - Do the same for the **right half**.  
+
+6. **Flash the NEW dongle firmware**  
+   - Plug in the dongle again.  
+   - Double-click reset → drag `drift_central_dongle.uf2` into the drive.  
+   - Wait for it to finish.  
+
+7. **Flash the left half with new firmware**  
+   - Plug in the **left half**.  
+   - Double-click reset near the power switch.  
+   - Drag `drift_left.uf2` into the bootloader drive.  
+
+8. **Flash the right half with new firmware**  
+   - Repeat the same process with the **right half**, using `drift_right.uf2`.  
+
+9. **Reconnect everything**  
+   - Unplug the halves.  
+   - Plug the dongle back in.  
+   - Press the reset button once on each half so they reconnect to the dongle.  
+
+10. ✅ You’re done!  
+	- Download [ZMK Studio](https://zmk.studio/download), or
+    - Open the [ZMK Studio](https://studio.zmk.dev) app online to see your Drift keyboard.  
+    - Now you can view and customize your keys to your hearts content.  
+	
+11. **Useful Links for further tinkering:**  
+	- More information on all the different [keys and keycodes](https://zmk.dev/docs/keymaps/list-of-keycodes)  
 
 ## Acknowledgments  
 

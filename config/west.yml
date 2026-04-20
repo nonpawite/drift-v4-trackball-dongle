@@ -21,7 +21,7 @@ manifest:
       revision: main
     - name: zmk-behavior-key-press-lip
       remote: timception
-      revision: main      
+      revision: main
   self:
     path: config
 

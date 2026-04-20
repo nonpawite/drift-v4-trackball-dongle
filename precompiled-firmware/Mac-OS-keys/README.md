@@ -10,7 +10,7 @@ Here is a quick guide on what keys on a Windows keyboard equate to on a Mac OS k
 | Alternate / Alt    | Option / ⌥     |
 | Control / Ctrl     | Ctrl / ⌃       |  
 
-Use this table so you know what keys to set in [ZMK Studio](*https://zmk.studio/)  
+Use this table so you know what keys to set in [ZMK Studio](https://zmk.studio/)  
 
 The ZMK Keycodes for the Modifiers can be found [HERE](https://zmk.dev/docs/keymaps/list-of-keycodes#modifiers)  
 
@@ -30,6 +30,8 @@ In the application, toggle: "Modify events" for the Drift Keyboard.
 # Mac OS Keymap  
 
 ![Keymap](https://github.com/Timception/drift-v4-trackball-dongle/blob/main/precompiled-firmware/Mac-OS-keys/drift.svg)  
+
+The precompiled firmware using this keymap can be found in the zip file listed above: [V4-Mac-OS-keys-firmware.zip](https://github.com/Timception/drift-v4-trackball-dongle/blob/main/precompiled-firmware/Mac-OS-keys/V4-Mac-OS-keys-firmware.zip)
 
 
 

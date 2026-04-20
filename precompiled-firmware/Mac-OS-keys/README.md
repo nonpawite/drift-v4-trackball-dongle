@@ -1,24 +1,29 @@
 # Drift Keyboard V4 — Mac OS Keys  
 
 
-### ⚙️ Windows Keys to Mac OS Keys  
+### ⚙️ Windows to Mac OS Key Table  
 Here is a quick guide on what keys on a Windows keyboard equate to on a Mac OS keyboard  
 
 | Windows Keyboard   | Mac OS Keyboard |
 |:------------------:|:---------------:|
 | Windows Key / GUI  | Command / ⌘    |
 | Alternate / Alt    | Option / ⌥     |
-| Control / Ctrl     | Ctrl / ⌃       |
+| Control / Ctrl     | Ctrl / ⌃       |  
+
+Use this table so you know what keys to set in [ZMK Studio](*https://zmk.studio/)  
+
+The ZMK Keycodes for the Modifiers can be found [HERE](https://zmk.dev/docs/keymaps/list-of-keycodes#modifiers)  
 
 ---
 
-### Karabiner Tilde(~) Key Problem Solver  
+### Karabiner: The Tilde(~) Key Problem Solver  
 To solve the common problem found when using external keyboards on a Mac, download and install:  
+
 [Karabiner-Elements](https://karabiner-elements.pqrs.org/) - follow the guide and enable everything it asks you to.  
 
-Once the application is installed and everything is enabled toggle "Modify events" for the Drift Keyboard.  
+In the application, toggle: "Modify events" for the Drift Keyboard.  
 
-An example can be seen [as shown here](https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-devices/)  
+[As shown here](https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-devices/)  
 
 ---
 

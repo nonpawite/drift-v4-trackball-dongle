@@ -18,14 +18,26 @@ The ZMK Keycodes for the Modifiers can be found [HERE](https://zmk.dev/docs/keym
 
 ---
 
-### Karabiner: The Tilde(~) Key Problem Solver  
-To solve the common problem found when using external keyboards on a Mac, download and install:  
+### The Tilde(~) Key Problem  
+Sometimes the Tilde key (~) does not work no matter what you try.  
 
-[Karabiner-Elements](https://karabiner-elements.pqrs.org/) - follow the guide and enable everything it asks you to.  
+Open up the Terminal App  
 
-In the application, toggle: "Modify events" for the Drift Keyboard.  
+Copy this code and paste it in your terminal then press enter, you will likely be prompted to enter your password to execute it.  
 
-[As shown here](https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-devices/)  
+```
+sudo rm /Library/Preferences/com.apple.keyboardtype.plist
+```
+
+Your Drift Keyboard will probably be disabled now, Restart your Mac/Macbook.  
+
+When you are prompted to setup your keyboard, press "z" for the key next to the left shift.  
+
+Then press "/" (backslash) for the key next to the right shift.  
+
+Finally, choose "ANSI (U.S.)".  
+
+Now your keyboard can type the Tilde (~) key by pressing "SHIFT" + "~" (Tilde Key).  
 
 ---
 

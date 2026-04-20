@@ -4,11 +4,11 @@
 ### ⚙️ Windows Keys to Mac OS Keys
 Here is a quick guide on what keys on a Windows keyboard equate to ona Mac OS keyboard  
 
-- WINDOWS Keyboard			MAC OS Keyboard  
-============================================
-- Windows Key or GUI	=	Command/⌘  
-- Alternate/Alt			=	Option/⌥  
-- Control/Ctrl			=	Ctrl/⌃  
+| WINDOWS Keyboard   | MAC OS Keyboard |
+| ------------------ | --------------- |
+| Windows Key or GUI | Command/⌘      |
+| Alternate/Alt      | Option/⌥       |
+| Control/Ctrl       | Ctrl/⌃          |
 
 ---
 

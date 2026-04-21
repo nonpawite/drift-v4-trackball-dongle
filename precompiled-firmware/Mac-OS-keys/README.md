@@ -37,7 +37,7 @@ sudo rm /Library/Preferences/com.apple.keyboardtype.plist
 > [!IMPORTANT]
 > When you are prompted to setup your keyboard, press "z" for the key next to the LEFT Shift.  
 > 
-> Then press "/" (backslash) when prompted to press the key next to the RIGHT Shift.  
+> Then press "/" (forward slash) when prompted to press the key next to the RIGHT Shift.  
 > 
 > Finally, choose "ANSI (U.S.)"  
 > 

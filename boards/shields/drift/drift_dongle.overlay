@@ -60,7 +60,7 @@ k// Copyright (c) 2025 The ZMK Contributors
 	scroll {
 		layers = <5 7>; // SCROLL
 		input-processors =
-            <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, // Commented out to invert scrolling (some Mac users may want this)
+            <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, /* Commented out to invert scrolling (some Mac users may want this) */
             <&zip_xy_scaler 1 16>,
             <&zip_xy_to_scroll_mapper>;
 	};	

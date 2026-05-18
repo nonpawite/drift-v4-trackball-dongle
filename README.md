@@ -1,5 +1,8 @@
 # Drift Keyboard V4 — Trackball Edition  
-by **Timception**
+by **Timception**  
+
+- <img src="images/keyboard-v4-2.jpg" width="500"><br/><br/>  
+- <img src="images/keyboard-v4-1.jpg" width="500"><br/><br/>
 
 Welcome to the **Drift Keyboard V4 — Trackball Edition**.  
 This version keeps the familiar shape of previous Drift models while introducing some interesting additional features.  

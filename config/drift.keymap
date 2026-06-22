@@ -239,11 +239,11 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                  &trans  &trans
+&trans  &trans  &trans  &trans        &trans      &trans        &trans                  &trans          &trans          &trans        &trans           &trans    &trans    &kp LC(LG(Q))
+&trans  &trans  &trans  &kp C_RW      &trans      &kp C_FF      &trans                  &trans          &trans          &trans        &trans           &kp LBKT  &kp RBKT  &trans
+&trans  &trans  &trans  &kp C_VOL_DN  &kp K_MUTE  &kp C_VOL_UP  &trans                  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans    &trans    &trans
+&trans  &trans  &trans  &trans        &trans      &trans        &trans  &trans  &trans  &trans          &trans          &trans        &trans           &trans    &trans    &trans
+                        &trans        &kp C_PP    &trans                        &trans  &trans
             >;
         };
 

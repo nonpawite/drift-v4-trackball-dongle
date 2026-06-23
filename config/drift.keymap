@@ -106,11 +106,11 @@
         default_layer {
             display-name = "base";
             bindings = <
-&kp ESC        &kp EQUAL       &kp N1  &kp N2        &kp N3     &kp N4         &kp N5                                &kp N6         &kp N7  &kp N8     &kp N9   &kp N0    &kp MINUS      &none
-&kp LC(GRAVE)  &kp TAB         &kp Q   &kp W         &kp E      &kp R          &kp T                                 &kp Y          &kp U   &kp I      &kp O    &kp P     &kp BACKSLASH  &kp RCTRL
-&mo 8          &none           &kp A   &kp S         &kp D      &kp F          &kp G                                 &kp H          &kp J   &kp K      &kp L    &kp SEMI  &kp SQT        &kp ENTER
-&kp LCMD       &kp LEFT_SHIFT  &kp Z   &kp X         &kp C      &kp V          &kp B   &kp LG(SPACE)  &none          &kp N          &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSPACE  &mo 9
-                                       &kp LEFT_ALT  &kp SPACE  &kp LC(SPACE)                         &kp RC(SPACE)  &kp RIGHT_ALT
+&kp ESC    &kp EQUAL       &kp N1  &kp N2        &kp N3     &kp N4         &kp N5                                &kp N6         &kp N7  &kp N8     &kp N9   &kp N0    &kp MINUS      &none
+&kp GRAVE  &kp TAB         &kp Q   &kp W         &kp E      &kp R          &kp T                                 &kp Y          &kp U   &kp I      &kp O    &kp P     &kp BACKSLASH  &kp RCTRL
+&mo 8      &kp BACKSPACE   &kp A   &kp S         &kp D      &kp F          &kp G                                 &kp H          &kp J   &kp K      &kp L    &kp SEMI  &kp SQT        &kp ENTER
+&kp LCMD   &kp LEFT_SHIFT  &kp Z   &kp X         &kp C      &kp V          &kp B   &kp LG(SPACE)  &none          &kp N          &kp M   &kp COMMA  &kp DOT  &kp FSLH  &none          &mo 9
+                                   &kp LEFT_ALT  &kp SPACE  &kp LC(SPACE)                         &kp RC(SPACE)  &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&enc_scroll SCRL_DOWN SCRL_UP>;
